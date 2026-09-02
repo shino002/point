@@ -1,0 +1,17 @@
+{
+  "name": "pointbot",
+  "version": "1.0.0",
+  "description": "Discord 서버 활성화용 포인트/레벨/상점/도박 봇",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}

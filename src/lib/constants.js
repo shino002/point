@@ -1,0 +1,26 @@
+module.exports = {
+  colors: {
+    primary: 0x6C5CE7,
+    gold: 0xF0B429,
+    green: 0x3BA55D,
+    red: 0xED4245,
+    dark: 0x2B2D31,
+    blue: 0x5865F2,
+  },
+  defaults: {
+    currencyName: '포인트',
+    chatXpMin: 15,
+    chatXpMax: 25,
+    chatCooldown: 60,
+    voiceXp: 8,
+    dailyXp: 200,
+    dailyStreakBonus: 25,
+    gambleMin: 50,
+    gambleMax: 50000,
+    gambleFee: 5,
+    gambleCooldown: 8,
+    levelPrefix: 0,
+  },
+  gameExpireMs: 30 * 60 * 1000,
+  voiceTickMs: 60 * 1000,
+};

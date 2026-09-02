@@ -50,7 +50,7 @@ async function deployCommands() {
 }
 
 client.once('ready', async () => {
-  console.log(`${client.user.tag} 로그인 · public GitHub 배포`);
+  console.log(`${client.user.tag} 로그인 · public GitHub 배포 2`);
   try {
     await deployCommands();
   } catch (err) {
